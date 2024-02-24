@@ -10,5 +10,5 @@ To run the project import it to Eclipse and run the GUIClient.java file.
 Final Grade: 17.2 / 20
 
 ## Contributors:
-André Reis fc58192
+André Reis fc58192 <p>
 Martim Pereira fc58223
