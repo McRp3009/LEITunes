@@ -1,0 +1,45 @@
+***********************************************************
+	
+		Trabalho Prático 1 @ DCO-LEI-FCUL 
+		 
+		
+***********************************************************
+
+***************
+	Overview
+***************
+
+Este é um projeto Eclipse que contém o código e artefactos fornecidos para 
+o Trabalho Prático 1, organizado de acordo com a solução de desenho fornecida.
+
+O objetivo deste trabalho é que os alunos exercitem a utilização das técnicas e
+dos princípios de programação OO lecionados na disciplina. O trabalho centra-se
+numa aplicação que é um gestor e reprodutor de músicas em suporte digital.
+
+Esta versão contém uma interface gráfica (GUIClient) que suporta algumas das
+funcionalidades cobertas, nomeadamente ver o conteúdo da biblioteca, das
+playlists existentes, e tocar uma música a partir da biblioteca ou de uma
+playlist. Para além disso existe um programa cliente (SimpleClient) que
+exercita algumas funcionalidades da aplicação. 
+
+
+******************************
+	Como por o projeto a funcionar?
+******************************
+
+1. Importar o projeto para o eclipse 2. Verificar se a pasta lib existe a. Senão
+existir criar 3. Adicionar as bibliotecas necessárias a. swt
+(https://download.eclipse.org/eclipse/downloads/drops4/R-4.26-202211231800/)
+a1. No final da página ir para SWT Binary and Source a2. Efectuar o download de
+acordo com o sistema operativo a usar a3. Abrir o zip a4. Copiar swt.jar para a
+pasta lib do projeto b. mp3agic (https://github.com/mpatric/mp3agic) a1.
+Efectuar o download do jar
+(https://mvnrepository.com/artifact/com.mpatric/mp3agic/0.9.1) b2. Copiar o jar
+para a pasta lib do projeto 4. Fazer refresh project (lado direito rato sobre a
+pasta do projeto) 5. Verificar na tab problems se está tudo sem erros
+encontrados a. Caso não esteja ir a Build Path->Configure Build Path
+(lado direito rato sobre a pasta pasta projeto) b. Verificar se as libs e o
+JUnit estão marcadas com visto c. Caso não estejam marcar com visto d. Clicar
+em Apply and close 6. Agora tudo deverá estar funcional e pronto para começarem
+a vossa implementação
+
